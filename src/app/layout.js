@@ -26,11 +26,11 @@ export default function RootLayout({ children }) {
       >
         <Navber />
         {children}
-        <footer className="bg-black text-white">
+        {/* <footer className="bg-black text-white">
           <h1>
             this is footer
           </h1>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );

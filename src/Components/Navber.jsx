@@ -22,12 +22,26 @@ const Navber = () => {
             title: 'About',
             path: '/about'
         },
+        {
+            title: 'Blogs',
+            path: '/blogs'
+        },
+        {
+            title: 'Dashboard',
+            path: '/dashboards'
+        },
+        {
+            title: 'Categories',
+            path: '/categories'
+        },
     ]
 
 
     const handleButton = () => {
         router.push('/about')
     }
+
+    if(!pathName.includes('/dashboards')) 
     return (
         <nav className="bg-black text-white flex justify-between">
           <ul className="flex justify-between items-center gap-6">
